@@ -18,11 +18,6 @@ namespace UnityMLPlayground.Samples.RollerBall
             rBody = GetComponent<Rigidbody>();
         }
 
-        public override void Initialize()
-        {
-            rBody = GetComponent<Rigidbody>();
-        }
-
         public override void OnEpisodeBegin()
         {
             // If the Agent fell, zero its momentum
